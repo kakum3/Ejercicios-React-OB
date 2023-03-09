@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  row-gap: 10px;
+
+}
+.contact-component{
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  max-width: 200px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactoLista{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin: 10px;
+  width: 100%;
+  padding: 15px;
+  flex-wrap: wrap;
+  display: block;
+  
+  
+}
+
+input{
+  padding: 10px;
+  font-size: 12px;
+  
+}
+
